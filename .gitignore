@@ -1,0 +1,44 @@
+# Dependencies
+node_modules/
+
+# Environment
+.env
+.env.local
+
+# Session & logs
+session/
+logs/
+*.log
+baileys_store.json
+
+# Temporary
+temp/
+tmp/
+*.tmp
+*.temp
+
+# Large binaries (DON'T COMMIT!)
+ffmpeg/
+*.exe
+*.dll
+*.zip
+*.mp4
+*.mp3
+*.jpg
+*.png
+
+# System
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Git LFS
+.gitattributes
+
+# Backup files
+*.backup
+*.old
